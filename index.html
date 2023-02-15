@@ -5,18 +5,132 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR&display=swap" rel="stylesheet">  
+        
+        
+        
+        
         <style>
            @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR&display=swap');
 
            
              font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Noto Sans KR', sans-serif;
+
+.bootstrap-header {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.bootstrap-header-logo {
+	font-family: 'Playfair Display', Georgia, 'Times New Roman',
+		serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+	font-size: 2.25rem;
+}
+
+.bootstrap-header-logo:hover {
+	text-decoration: none;
+}
+
+.display-4 {
+	font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+	.display-4 {
+		font-size: 3rem;
+	}
+}
+
+.flex-auto {
+	flex: 0 0 auto;
+}
+
+.h-250 {
+	height: 250px;
+}
+
+@media (min-width: 768px) {
+	.h-md-250 {
+		height: 250px;
+	}
+}
+
+/*
+ * Footer
+ */
+.bootstrap-footer {
+	padding: 2.5rem 0;
+	color: #727272;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-top: 0.05rem solid #e5e5e5;
+}
+.bootstrap-footer p:last-child {
+	margin-bottom: 0;
+}
+
+.my box {
+    border: 1px; background-color: gray; width: 60px;
+}
+
+
+
+
         </style>
     </head>
     <body>
-        <div style="display: flex; width: 100%; border-radius: 3px; background: rgb(241, 241, 239); padding: 16px 16px 16px 12px;"><div><div class="notion-record-icon notranslate" style="display: flex; align-items: center; justify-content: center; height: 24px; width: 24px; border-radius: 0.25em; flex-shrink: 0;"><div style="display: flex; align-items: center; justify-content: center; height: 24px; width: 24px;"><div style="height: 21.6px; width: 21.6px; font-size: 21.6px; line-height: 1; margin-left: 0px; color: black;"><img class="notion-emoji" alt="0️⃣" aria-label="0️⃣" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" style="width: 100%; height: 100%; background: url(&quot;/images/emoji/twitter-emoji-spritesheet-64.d3a69865.png&quot;) 0% 3.38983% / 6000% 6000%;"></div></div></div></div><div style="display: flex; flex-direction: column; min-width: 0px; margin-left: 8px; width: 100%;"><div spellcheck="true"<strong>hello</strong>경력     취미     기타 data-content-editable-leaf="true" contenteditable="false" style="max-width: 100%; width: 100%; white-space: pre-wrap; word-break: break-word; caret-color: rgb(55, 53, 47); padding-left: 2px; padding-right: 2px;"><span style="font-weight:600" data-token-index="0" class="notion-enable-hover">시작하기</span></div></div></div>
-        <strong>hello</strong>경력     취미     기타
-              
+        <div class="my box" style="background-color: gray ; "><strong>Hello</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;경력&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;취미&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기타 
+        </div>
+             
+        <div><main class="container">
+			<div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+				<div class="col-md-6 px-0">
+					<h1 class="display-7">
+						Bootstrap을 활용해 퍼스널<br> 브랜딩 페이지 만들기
+					</h1>
+					<p class="lead my-3">
+						다양한 태그와 라이브러리를 사용하여 자유롭게 표현<br>해보세요
+					</p>
+        
+                        
+              </div>
+
+
+<div>경력&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;취미&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기타</div>
+
+<h1>경력<br>
+리스트 사용하기</h1>
+UL을 활용하여 리스트를 표현해보세요<br>
+<ul>
+<li>첫번째</li>
+<li>두번째</li>
+<li>세번째</li>
+</ul> <br>
+OL을 활용하여 리스트를 표현해보세요<br>
+<ol><li>첫번째</li>
+<li>두번째</li>
+<li>세번째</li></ol> <br>
+DL을 활용하여 리스트를 표현해보세요<br>
+<h4>HyperText Markup Language (HTML)</h4>
+HTML이란?
+<h4>Casecading Style Sheets (CSS)</h4>
+CSS란?
+<h4>JavaScript (JS)</h4>
+JS란?
+
+<h1>취미<br>
+    헤딩 활용하기</h1>
+    div 요소는 플로우 콘텐츠를 위한 컨네이너입니다. CSS로 꾸미기 전에는 콘텐츠나 레이아웃<br>
+에 어떤 영향도 주지 않습니다.
+<h2>서브 헤딩</h2><br>
+P 요소는 하나의 문단을 나타냅니다. 시각적인 매체에서, 문단은 보통 인접 블록과의 여백과 첫 줄
+의 들여쓰기로 구분하지만, HTML에서 문단은 이미지나 입력 폼 등 서로 관련있는 콘텐츠 무엇이
+나 될 수 있습니다.<br>
+
+<h1>기타
+아직 더 표현하고 싶은게 있으신가요?</h1>
+아직도 다양한 태그들이 남았답니다.<br>
+여기에서 더 다양한 태그들을 확인해보시고 간단하게 사용해보세요
+이미 만들어진 간단한 부트스트랩 스타일을 사용하고 싶다면? 부스트스트랩 문서를 참고해보세요
+
 
     </body>
 </html>
